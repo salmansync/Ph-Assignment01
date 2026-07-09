@@ -178,7 +178,6 @@ ul a {
 
 .card2 .p-pro {
   color: #93C5FD;
-  border-radius: 5px solid red;
 }
 
 .card2 li {
@@ -334,7 +333,7 @@ ul a {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding
+
 }
 
 /* footer end  */
