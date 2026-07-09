@@ -1,3 +1,81 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.common-btn {
+  background-color: #1D4ED8;
+  padding: 20px 40px;
+  font-weight: bold;
+  color: #FFFF;
+  border-radius: 10px;
+  border: none;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 12px;
+
+}
+
+ul a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+}
+
+
+.header-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('./assets/banner.jpg');
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #FFFF;
+}
+
+.header-section div {
+  display: grid;
+  gap: 20px;
+  text-align: center;
+
+}
+
+.header-section div h1 {
+  font-size: 80px;
+}
+
+.header-section div p {
+  font-size: 22px;
+  opacity: 90%;
+}
+
+.header-section button {
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
 }
