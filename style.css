@@ -11,6 +11,7 @@ img {
 .container {
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 40px;
 }
 
 .common-btn {
@@ -78,4 +79,50 @@ ul a {
   margin: 0 auto;
   font-size: 24px;
   font-weight: bold;
+}
+
+.meet-card {
+  border: 0.5px solid #5757;
+  border-radius: 10px;
+}
+
+.meet-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.meet-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+}
+
+.meet-root h2 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 40px;
+}
+
+.meet-section h5 {
+  font-size: 12px;
+  color: #2563EB;
+}
+
+.meet-section h3 {
+  font-size: 20px;
+  color: #0D1B2A;
+}
+
+.meet-section h4 {
+  color: #5757;
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+
+.meet-card h5,
+.meet-card h4,
+.meet-card h3 {
+  padding-top: 20px;
+  padding-left: 20px;
 }
