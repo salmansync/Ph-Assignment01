@@ -243,3 +243,51 @@ ul a {
 
 
 /* secure section end */
+/* happy dev{elopers section start */
+.happy-root h2 {
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.happy-tittle p {
+  color: #575757;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.review-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+
+}
+
+.review-card {
+  padding: 40px 20px;
+  border-radius: 15px;
+  border: 0.5px solid #888888;
+
+}
+
+.review-card p {
+  color: #575757;
+  font-size: 18px;
+}
+
+.review-card h3 {
+  padding: 10px 0;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.review-card span {
+  font-size: 20px;
+}
+
+/* happy developers section end */
