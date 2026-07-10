@@ -162,7 +162,7 @@ ul a {
 
 .card {
   padding: 20px;
-  padding-left: 40px;
+  padding-left: 30px;
   text-align: left;
   border: 1px solid #575757;
   border-radius: 5%;
@@ -194,7 +194,7 @@ ul a {
   gap: 20px;
   font-size: 14px;
   color: #333333;
-
+  margin-left: 20px;
 
 }
 
@@ -222,19 +222,20 @@ ul a {
 }
 
 .card-btn {
-  display: block;
-  margin: 0 auto;
-  padding: 20px 100px;
+
   background-color: #fff;
   color: #1D4ED8;
   border: 1px solid #1D4ED8;
   margin-top: 20px;
   font-size: 14px;
+  width: 300px;
 }
 
 .card-btn2 {
   background-color: #2563EB;
   color: #fff;
+
+
 }
 
 .card-btn3 {
@@ -297,17 +298,17 @@ ul a {
 
 /* footer start  */
 .footer {
-  padding-top: 20px;
   padding-bottom: 30px;
   background-color: #497db4;
   margin-bottom: 0px;
+
 }
 
 .footer-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
 
 }
 
